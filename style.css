@@ -44,7 +44,7 @@
     margin-left:2000px;
     background: linear-gradient(to bottom right, #5f3900 0%, #5a3600 100%);
     right:400px;
-    transform:translateY(500px);
+    transform:translateY(567px);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: transform 0.5s ease;
 }
