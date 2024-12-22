@@ -1,0 +1,46 @@
+#background{
+    background: linear-gradient(to bottom right, #ccffff 0%, #ffffff 100%);
+    background-attachment: fixed;
+    margin:0
+}
+
+#container{
+    position: absolute;
+    margin-left:42%;
+    margin-top:11%;
+    width:10px;
+}
+
+#tree{
+    width:200px;
+}
+
+#christmasbutton{
+    background-color: #ffffff00;
+    border-color:#ccffff00
+}
+#christmasbutton:active{
+    background-color: rgba(1, 73, 70, 0.199);
+}
+
+#click{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:fixed;
+    width:200px;
+    height:50px;
+    margin-top:.7%;
+    margin-left:-5%;
+    text-align: center;
+
+
+
+}
+#block{
+    position:absolute;
+    width:200px;
+    height:50px;
+    margin-top:500%;
+    margin-left:125%;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
