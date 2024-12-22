@@ -2,6 +2,18 @@
     background: linear-gradient(to bottom right, #00ffff 0%, #ffffff 100%);
     background-attachment: fixed;
     margin: 0;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    margin: 0; height: 100%; overflow: hidden
+}
+#background.change
+{
+    background: linear-gradient(to bottom right, #530b77 0%, #000a8f 100%);
+    background-attachment: fixed;
+    margin: 0;
 }
 
 #container {
