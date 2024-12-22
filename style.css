@@ -13,6 +13,14 @@
 
 #tree{
     width:200px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+@keyframes move{
+    0%  {left:0px; top:0px}
+    100% {left:300px;top:0px}
 }
 
 #christmasbutton{
@@ -23,24 +31,3 @@
     background-color: rgba(1, 73, 70, 0.199);
 }
 
-#click{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position:fixed;
-    width:200px;
-    height:50px;
-    margin-top:.7%;
-    margin-left:-5%;
-    text-align: center;
-
-
-
-}
-#block{
-    position:absolute;
-    width:200px;
-    height:50px;
-    margin-top:500%;
-    margin-left:125%;
-    text-align: center;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
