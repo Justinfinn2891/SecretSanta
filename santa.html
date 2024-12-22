@@ -6,13 +6,42 @@
     <link rel="stylesheet" href="style.css">
     <title>Secret Santa</title>
 </head>
-<body id = "background">
-    <div id = "container">
-        <button id = "christmasbutton"><img id = "tree" src = "tree.png">
+<body id="background">
+    <div id="container">
+        <button id="christmasbutton">
+            <img id="tree" src="tree.png" alt="Christmas Tree">
         </button>
-    
-       
+        <div id = "page">
+            <div id = "page-container"><label id = "secret">Secret Santa</label></div>
+            <div id = "page-contain">
+                <label id = "name_text">Name:</label>
+                <input id = "name"></div>
 
+                <!--Cheap way to do this, I want to add a possible + button later to add more slots-->
+            <div id = "page-contain2">
+                <label id = "name_text2">Name:</label>
+                <input id = "name2">
+            </div>
+
+            <div id = "page-contain3">
+                <label id = "name_text3">Name:</label>
+                <input id = "name3">
+            </div>
+
+            <div id = "page-contain4">
+                <label id = "name_text4">Name:</label>
+                <input id = "name4">
+            </div>
+
+            <div id = "page-contain5">
+                <label id = "name_text5">Name:</label>
+                <input id = "name5">
+            </div>
+
+            <!-- Possible more containers for names-->
+        </div>
     </div>
+
+    <script src = "santa.js"></script>
 </body>
 </html>

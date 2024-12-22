@@ -1,33 +1,189 @@
-#background{
-    background: linear-gradient(to bottom right, #ccffff 0%, #ffffff 100%);
+#background {
+    background: linear-gradient(to bottom right, #00ffff 0%, #ffffff 100%);
     background-attachment: fixed;
-    margin:0
+    margin: 0;
 }
 
-#container{
+#container {
     position: absolute;
-    margin-left:42%;
-    margin-top:11%;
-    width:10px;
+    margin-left: 42%;
+    margin-top: 11%;
+    text-align: center;
 }
 
-#tree{
-    width:200px;
+#tree {
+    width: 200px;
     position: relative;
-    animation-name: move;
-    animation-duration: 2s;
+    filter: drop-shadow(0px 0px 12px grey);
+
+    transition: transform 0.5s ease;
 }
 
-@keyframes move{
-    0%  {left:0px; top:0px}
-    100% {left:300px;top:0px}
+#tree.move-right {
+    transform: translateX(450px) scale(2) translateY(50px);
+   
 }
 
-#christmasbutton{
-    background-color: #ffffff00;
-    border-color:#ccffff00
+#page{
+    position:absolute;
+    padding:20px;
+    width: 350px;
+    height:500px;
+    margin-left:2000px;
+    background: linear-gradient(to bottom right, #5f3900 0%, #5a3600 100%);
+    right:400px;
+    transform:translateY(500px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: transform 0.5s ease;
 }
-#christmasbutton:active{
-    background-color: rgba(1, 73, 70, 0.199);
+#page.build{
+    transform: translateX(425px) translateY(-350px);
 }
 
+#page-container{
+    position:absolute;
+    padding:20px;
+    right:20px;
+    width:315px;
+    background-color: rgb(146, 146, 146);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.5);
+}
+#page-contain{
+    position:absolute;
+    margin-top:100px;
+    padding:20px;
+    width:300px;
+    height:20px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+#christmasbutton {
+    background-color: transparent;
+    border: none;
+}
+#name{
+    position: relative;
+    width:150px;
+    height:30px;
+    left:85px;
+    
+}
+
+#name_text{
+    position: absolute;
+    right:235px;
+    transform: translateY(-5px);
+    font-size:33px;
+}
+
+#name2{
+    position: relative;
+    width:150px;
+    height:30px;
+    left:85px;
+    
+}
+
+#name_text2{
+    position: absolute;
+    right:235px;
+    transform: translateY(-5px);
+    font-size:33px;
+}
+
+#page-contain2{
+    position:absolute;
+    margin-top:175px;
+    padding:20px;
+    width:300px;
+    height:20px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#name3{
+    position: relative;
+    width:150px;
+    height:30px;
+    left:85px;
+    
+}
+
+#name_text3{
+    position: absolute;
+    right:235px;
+    transform: translateY(-5px);
+    font-size:33px;
+}
+
+#page-contain3{
+    position:absolute;
+    margin-top:250px;
+    padding:20px;
+    width:300px;
+    height:20px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#name4{
+    position: relative;
+    width:150px;
+    height:30px;
+    left:85px;
+    
+}
+
+#name_text4{
+    position: absolute;
+    right:235px;
+    transform: translateY(-5px);
+    font-size:33px;
+}
+
+#page-contain4{
+    position:absolute;
+    margin-top:325px;
+    padding:20px;
+    width:300px;
+    height:20px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#name5{
+    position: relative;
+    width:150px;
+    height:30px;
+    left:85px;
+    
+}
+
+#name_text5{
+    position: absolute;
+    right:235px;
+    transform: translateY(-5px);
+    font-size:33px;
+}
+
+#page-contain5{
+    position:absolute;
+    margin-top:400px;
+    padding:20px;
+    width:300px;
+    height:20px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+#secret{
+    position: relative;
+    font-size: 30px;
+
+
+}
+#christmasbutton:hover{
+    cursor:pointer;
+}
